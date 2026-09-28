@@ -1,19 +1,19 @@
 # Handverse
 
-Plataforma web para o aprendizado de Libras e a comunicação entre pessoas surdas e ouvintes, com vídeo aulas, tradução automática, videochamada em tempo real e um sistema de gamificação.
+Plataforma web para o aprendizado de Libras e a comunicação entre pessoas surdas e ouvintes, com vídeo aulas, videochamada em tempo real, tradução automática e um sistema de gamificação.
 
-> Projeto acadêmico (Trabalho de Conclusão de Curso — Ciência da Computação). Este repositório é um fork do projeto original do grupo, mantido aqui por um dos integrantes como parte do portfólio pessoal. Repositório original: [Handverse/Handverse](https://github.com/Handverse/Handverse).
-
-<!-- Se o projeto estiver publicado, troque o link abaixo. Se não estiver mais no ar, remova a linha. -->
-🔗 **Demo:** [(https://handverse.netlify.app/)]
+> Projeto acadêmico para Trabalho de Conclusão de Curso, na graduação de Ciência da Computação pela a Faculdade das Américas (FAM).
+> Este repositório é um fork do projeto que foi apresentando pelo grupo, mantido aqui por um dos integrantes como parte do portfólio pessoal.
+> Repositório do projeto: [Handverse/Handverse](https://github.com/Handverse/Handverse).
+> Website do Projeto publicado: 🔗https://handverse.netlify.app/
 
 ---
 
 ## Sobre o projeto
 
-No Brasil, cerca de 14,4 milhões de pessoas têm alguma deficiência auditiva, e a maior parte dos ambientes digitais ainda não foi pensada para elas. O Handverse nasceu para reduzir essa barreira: uma plataforma onde qualquer pessoa, com zero conhecimento prévio de Libras, pode aprender os sinais básicos, praticar por chat e videochamada, e se comunicar com a comunidade surda.
+No Brasil, cerca de 14,4 milhões de pessoas têm alguma deficiência auditiva, e a maior parte dos ambientes digitais ainda não foi pensada para essas pessoas. O Handverse nasce para reduzir essa barreira, ideia de uma plataforma onde qualquer pessoa, com zero conhecimento prévio de Libras, pode aprender linguagem de sinais básicos, praticar a linguagem por chat e videochamada se comunicando com a comunidade surda.
 
-O projeto foi validado com pesquisa de campo real — aplicamos um formulário com pessoas surdas, ouvintes interessados em inclusão e estudantes de Libras, e 66% dos entrevistados disseram que usariam a plataforma para comunicação e aprendizado. Esse retorno guiou as funcionalidades priorizadas no desenvolvimento.
+O projeto foi validado com pesquisa de campo real, aplicamos um formulário com pessoas surdas, ouvintes interessados em inclusão e estudantes de Libras, e 76% dos entrevistados disseram que usariam a plataforma para comunicação e aprendizado. Esse retorno guiou as funcionalidades priorizadas no desenvolvimento.
 
 ## Funcionalidades
 
@@ -52,14 +52,9 @@ O Realtime Database está organizado em três coleções principais:
 - **Questions** — perguntas do quiz de gamificação: enunciado, alternativas, resposta correta e código da questão.
 - **QuestionsXUsers** — tabela de relacionamento entre usuário e pergunta: se acertou, quando respondeu, e-mail do usuário e código da questão.
 
-## Minha contribuição
-
-<!-- Substitua pela descrição real e específica do que você fez. Alguns exemplos de como detalhar: -->
-Trabalhei em diferentes frentes do sistema, incluindo **[preencher: ex. cadastro/login, tela de videochamada, integração do quiz de gamificação com o banco de dados, pesquisa de campo]**.
-
 ## Equipe
 
-Projeto desenvolvido para a disciplina de TCC do curso de Ciência da Computação, sob orientação do Prof. Me. Gregorio Perez Peiro.
+Projeto desenvolvido para a disciplina de TCC da Graduação do curso de Ciência da Computação, sob orientação do Prof. Me. Gregrio Perez Peiro.
 
 - Henrique Nicolae Di Sciascio - [@HenriqueSciascio](https://github.com).
 - Lucas Martins da Silva - [@LucHalls](https://github.com).
@@ -67,7 +62,7 @@ Projeto desenvolvido para a disciplina de TCC do curso de Ciência da Computaç�
 - Vagner Marques de Souza Lopes - [@DS-Vagner](https://github.com).
 
 
-## Como executar localmente
+<!--(## Como executar localmente
 
 O projeto é front-end estático (sem build step), então basta servir os arquivos:
 
@@ -80,7 +75,7 @@ Abra `index.html` com uma extensão de live server (ex: Live Server do VS Code),
 
 ```bash
 npx serve .
-```
+```-->
 
 > As funcionalidades que dependem de backend (login, chat, gamificação) exigem um projeto próprio no Firebase configurado com suas credenciais. As chamadas de vídeo dependem de uma chave de API do VideoSDK.
 
@@ -91,6 +86,6 @@ npx serve .
 - Módulo de simulação de entrevistas e processos seletivos em Libras.
 - Aplicativo mobile / PWA para tradução em tempo real.
 
-## Contexto acadêmico
+<!--## Contexto acadêmico
 
 Este projeto foi apresentado como Trabalho de Conclusão de Curso. O artigo completo, com fundamentação teórica, metodologia de pesquisa e referências, está disponível [neste repositório](#) <!-- adicione o link ou arquivo do TCC, se quiser publicá-lo -->.
